@@ -24,7 +24,7 @@ export default function InvariantLanding() {
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-pink-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
             INVARIANT
           </h1>
           <p className="mt-6 text-lg text-slate-300 max-w-2xl mx-auto">
@@ -34,8 +34,8 @@ export default function InvariantLanding() {
             <Button className="rounded-2xl px-8 py-6 text-base">
               Solicitar Proposta
             </Button>
-            <Button variant="outline" className="rounded-2xl px-8 py-6 text-base">
-              Ver Como Funciona
+            <Button className="rounded-2xl px-8 py-6 text-base">
+             Ver Como Funciona
             </Button>
           </div>
         </motion.div>
@@ -43,15 +43,15 @@ export default function InvariantLanding() {
 
       {/* PRODUTOS */}
       <section className="px-6 py-20 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-semibold text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-pink-500 via-fuchsia-500 via-blue-500 to-violet-500 bg-clip-text text-transparent tracking-tight">
           Nossos Produtos
         </h2>
 
         <div className="grid md:grid-cols-2 gap-10">
           <Card className="bg-slate-900/60 border-slate-800 rounded-2xl shadow-xl">
             <CardContent className="p-8">
-              <Globe className="w-10 h-10 mb-6 text-blue-400" />
-              <h3 className="text-xl font-semibold mb-4">
+              <Globe className="w-10 h-10 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-fuchsia-500 via-blue-500 to-violet-500" />
+              <h3 className="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-pink-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                 Site Inteligente para Negócios
               </h3>
               <p className="text-slate-400 leading-relaxed">
@@ -64,14 +64,14 @@ export default function InvariantLanding() {
 
           <Card className="bg-slate-900/60 border-slate-800 rounded-2xl shadow-xl">
             <CardContent className="p-8">
-              <MessageCircle className="w-10 h-10 mb-6 text-purple-400" />
-              <h3 className="text-xl font-semibold mb-4">
-                Combo: Site + Chatbot Twilio
+              <Globe className="w-10 h-10 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-fuchsia-500 via-blue-500 to-violet-500" />
+              <h3 className="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-pink-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
+                Combo: Site + Chatbot Whatsapp Business
               </h3>
               <p className="text-slate-400 leading-relaxed">
                 Automatize reservas, pedidos e atendimento via WhatsApp com um
                 agente de IA treinado para responder clientes 24h por dia.
-                Integração completa via Twilio.
+                Integração completa via Whatsapp Business.
               </p>
             </CardContent>
           </Card>
@@ -81,13 +81,15 @@ export default function InvariantLanding() {
       {/* COMO FUNCIONA */}
       <section className="px-6 py-20 bg-slate-900/40">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold mb-12">Como Funciona</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-pink-500 via-fuchsia-500 via-blue-500 to-violet-500 bg-clip-text text-transparent tracking-tight">
+  Como Funciona</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-slate-900 border-slate-800 rounded-2xl">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">1. Coleta de Dados</h4>
-                <p className="text-slate-400">
+                <h4 className="text-violet-400">
+                  1. Coleta de Dados</h4>
+                <p className="text-white">
                   Recebemos informações, fotos e detalhes do seu negócio.
                 </p>
               </CardContent>
@@ -95,8 +97,9 @@ export default function InvariantLanding() {
 
             <Card className="bg-slate-900 border-slate-800 rounded-2xl">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">2. Construção & Treino</h4>
-                <p className="text-slate-400">
+                <h4 className="text-violet-400">
+                  2. Construção & Treino</h4>
+                <p className="text-white">
                   Desenvolvemos o site e treinamos o agente com base nas suas
                   regras e produtos.
                 </p>
@@ -105,8 +108,9 @@ export default function InvariantLanding() {
 
             <Card className="bg-slate-900 border-slate-800 rounded-2xl">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">3. Implantação</h4>
-                <p className="text-slate-400">
+                <h4 className="text-violet-400">
+                  3. Implantação</h4>
+                <p className="text-white">
                   Publicamos o site e ativamos o chatbot integrado ao WhatsApp.
                 </p>
               </CardContent>
@@ -117,7 +121,8 @@ export default function InvariantLanding() {
 
       {/* SOBRE OS DESENVOLVEDORES */}
       <section className="px-6 py-20 max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-10">Quem Somos</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-pink-500 via-fuchsia-500 via-blue-500 to-violet-500 bg-clip-text text-transparent tracking-tight">
+          Quem Somos</h2>
         <p className="text-slate-400 leading-relaxed">
           Somos desenvolvedores especializados em Inteligência Artificial,
           Machine Learning e construção de agentes autônomos. Nossa missão é
@@ -129,29 +134,28 @@ export default function InvariantLanding() {
       {/* FAQ */}
       <section className="px-6 py-20 bg-slate-900/40">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center mb-12 flex items-center justify-center gap-3">
-            <HelpCircle className="w-8 h-8 text-pink-400" /> FAQ
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 flex items-center justify-center gap-3 bg-gradient-to-r from-pink-500 via-fuchsia-500 via-blue-500 to-violet-500 bg-clip-text text-transparent tracking-tight">
+            <HelpCircle className="w-8 h-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-fuchsia-500 via-blue-500 to-violet-500" /> FAQ
           </h2>
 
           <div className="space-y-6">
             <Card className="bg-slate-900 border-slate-800 rounded-2xl">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-2">
-                  O chatbot realmente responde sozinho?
+                <h4 className="font-semibold mb-2 text-violet-400">
+                 O chatbot realmente responde sozinho?
                 </h4>
-                <p className="text-slate-400">
-                  Sim. Ele utiliza IA para interpretar perguntas e responder com
-                  base nas informações do seu negócio.
+                <p className="text-white">
+               Sim. Ele utiliza IA para interpretar perguntas e responder com base nas informações do seu negócio.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="bg-slate-900 border-slate-800 rounded-2xl">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-2">
+                <h4 className="font-semibold mb-2 text-violet-400">
                   Posso atualizar meu cardápio depois?
                 </h4>
-                <p className="text-slate-400">
+                <p className="text-white">
                   Sim. Oferecemos manutenção e atualização contínua.
                 </p>
               </CardContent>
@@ -159,11 +163,11 @@ export default function InvariantLanding() {
 
             <Card className="bg-slate-900 border-slate-800 rounded-2xl">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-2">
+                <h4 className="font-semibold mb-2 text-violet-400">
                   Em quanto tempo fica pronto?
                 </h4>
-                <p className="text-slate-400">
-                  Normalmente entre 7 a 14 dias após envio das informações.
+                 <p className="text-white">
+                  Entre 1 a 5 dias após o envio das informações.
                 </p>
               </CardContent>
             </Card>
